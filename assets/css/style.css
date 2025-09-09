@@ -1,4 +1,6 @@
 body {
-    background-color: #f5f5f5;
-    font-family: Arial, sans-serif;
-}
+    background-color: #FFC0CB; /* بيبي بينك */
+    font-family: Arial, sans-serif; /* خط الصفحة */
+    color: #333; /* لون النص */
+    margin: 0;
+    padding: 0;
