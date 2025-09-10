@@ -1,4 +1,4 @@
-/* تدرج الخلفية العام */
+/* الخلفية العامة */
 body {
     background: linear-gradient(135deg, #FFC0CB, #FF69B4, #FFB6C1);
     font-family: 'Arial', sans-serif;
@@ -36,6 +36,14 @@ header, section, footer {
 }
 
 /* روابط الفوتر */
+footer {
+    background-color: #FFB6C1;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+    margin-top: 40px;
+}
+
 footer a {
     color: #fff;
     text-decoration: none;
@@ -51,6 +59,7 @@ footer a:hover {
 h1, h2, h3 {
     margin: 10px 0;
 }
+
 p {
     margin: 5px 0;
 }
