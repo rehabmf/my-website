@@ -4,6 +4,9 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
+}
+
+/* روابط الفوتر */
 footer a {
     color: #fff;
     text-decoration: none;
@@ -13,4 +16,3 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
