@@ -4,7 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>موقعي التجريبي</title>
+    <!-- رابط CSS المحلي -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* تحسين بعض التنسيقات الأساسية لو CSS مش موجود أو لم يتم تحميله */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, section, footer {
+            max-width: 1000px;
+            margin: auto;
+        }
+        .projects {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .project img {
+            display: block;
+            margin: auto;
+        }
+        .socials a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        .socials a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <!-- رأس الصفحة -->
