@@ -1,9 +1,38 @@
+/* تدرج الخلفية العام */
 body {
-    background: linear-gradient(135deg, #FFC0CB, #FF69B4, #FFB6C1); /* تدرج بين ألوان البيبي بينك */
+    background: linear-gradient(135deg, #FFC0CB, #FF69B4, #FFB6C1);
     font-family: 'Arial', sans-serif;
     color: #333;
     margin: 0;
     padding: 0;
+}
+
+/* رؤوس وأقسام الصفحة */
+header, section, footer {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* قسم الأعمال */
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.project img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: auto;
 }
 
 /* روابط الفوتر */
@@ -16,3 +45,12 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* تحسين بعض النصوص */
+h1, h2, h3 {
+    margin: 10px 0;
+}
+p {
+    margin: 5px 0;
+}
