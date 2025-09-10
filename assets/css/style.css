@@ -11,6 +11,8 @@ body {
 header, section, footer {
     max-width: 1000px;
     margin: auto;
+    text-align: center;
+    padding: 20px;
 }
 
 /* قسم الأعمال */
