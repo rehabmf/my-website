@@ -1,11 +1,8 @@
 /* الخلفية العامة */
 body {
-    background: linear-gradient(135deg, #FFC0CB, #FF69B4, #FFB6C1);
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    margin: 0;
-    padding: 0;
+  background-color: red;
 }
+
 
 /* رؤوس وأقسام الصفحة */
 header, section, footer {
